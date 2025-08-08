@@ -100,8 +100,8 @@ Exemplo de ondas de inimigos que aumentam a dificuldade progressivamente:
 ## Controls
 
 - Move: WASD or Arrow keys  
-- Attack (Melee/Ranged): Spacebar (or configurable key)  
-- Use Bonuses: (define a key or method here if applicable)
+- Attack (Melee): Spacebar 
+- Attack (Range): Left Mouse
 
 ## Future Improvements
 
