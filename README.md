@@ -7,7 +7,7 @@ Survive waves of enemies and defeat powerful bosses in this action-packed 2D sur
 ## Features
 
 - Multiple waves of enemies with escalating difficulty.
-- Unique boss fights with distinct attack patterns.
+- Boss fights with distinct attack patterns.
 - Player and boss health bars differentiated for clearer UI.
 - NPC enemy control using Unity's NavMesh for smart movement.
 - Variety of power-ups that increase speed, damage, and life.
