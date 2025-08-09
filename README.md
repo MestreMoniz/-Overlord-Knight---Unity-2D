@@ -2,124 +2,121 @@
 
 ## Overview
 
-Survive waves of enemies and defeat powerful bosses in this action-packed 2D survival game developed with Unity. Fight against increasing hordes, earn bonuses to strengthen your character, and face challenging bosses at the end of each stage.
+Survive waves of enemies and defeat powerful bosses in this action-packed 2D survival game developed with Unity. Face relentless hordes, collect bonuses to empower your character, and confront unique bosses at the end of each stage.
 
 ## Features
 
 - Multiple waves of enemies with escalating difficulty.
 - Boss fights with distinct attack patterns.
-- Player and boss health bars differentiated for clearer UI.
-- NPC enemy control using Unity's NavMesh for smart movement.
-- Variety of power-ups that increase speed, damage, and life.
+- Player and boss health bars designed for optimal UI clarity.
+- NPC enemies powered by Unity's NavMesh for intelligent pathfinding.
+- Variety of power-ups that upgrade speed, damage, and health.
 - Immersive sound effects and responsive animations.
-- Strategic gameplay requiring adaptation and skill to survive.
+- Strategic gameplay that rewards adaptation and skill.
 
 ## Gameplay Details
 
-- **Survival Rounds:** Players face successive enemy waves that grow in size and difficulty as rounds progress.
-- **Boss Battle:** Each stage culminates with a boss fight presenting unique challenges.
-- **Bonuses:** Gain power-ups dropped during rounds to improve attributes like movement speed, attack damage, and health.
-- **Controls & Mechanics:** Smooth and intuitive 2D controls; attacks include both melee and ranged, with differentiated AI behavior per enemy type.
+- **Survival Rounds:** Progress through successive waves of enemies, each more challenging than the last.
+- **Boss Battles:** Every stage ends with an epic boss encounter, each with unique mechanics.
+- **Bonuses:** Power-ups drop throughout waves to improve movement speed, attack power, and overall survivability.
+- **Controls & Mechanics:** Smooth 2D controls. Both melee and ranged combat; enemy AI adapts by type for a dynamic challenge.
 
 ## Visual Highlights
 
+*The images below illustrate key aspects of gameplay and mechanics. Place your exported Unity screenshots in the `images/` folder and reference them as shown.*
 
 ### Ambient & Lighting Example
 
 ![Example of Environment and Lighting](images/ambient_lighting_example.png)  
-*Exemplo do ambiente e iluminação do jogo, criando a atmosfera imersiva para as partidas.*
+*Example scene showing the game's atmospheric environment and lighting.*
 
 ### Enemy Movement via NavMesh
 
 ![Enemy Movement](images/enemy_navmesh.png)  
-*Inimigos usam o sistema NavMesh do Unity para perseguir o jogador de maneira inteligente.*
+*Enemies use Unity’s NavMesh system for smart and dynamic pursuit of the player.*
 
 ### Health Bars
 
-![Health Bars Player](images/health_bars_1.png)  
-![Health Bars Boss](images/health_bars_2.png)  
+![Player Health Bar](images/health_bars_1.png)  
+![Boss Health Bar](images/health_bars_2.png)  
 
-*Estilos diferenciados para barras de vida do jogador e dos chefões, melhorando a experiência do usuário.*
+*Distinct visual designs for player and boss health bars to enhance the user experience.*
 
 ### Combat and Attack Mechanics
 
 #### Boss
 
-Ataque do chefão durante a batalha:
+Boss attack sequence:
 
 ![Boss Attack](images/bossAttack.png)
 
-Gráfico do Animator para o chefão:
+Boss Animator graph:
 
 ![Boss Animator Graph](images/combat_boss_mechanics.png)
 
 #### Player
 
-Ataque corpo a corpo (melee):
+Melee attack:
 
 ![Player Melee Attack 1](images/MeleeAttack_1.png)  
 ![Player Melee Attack 2](images/MeleeAttack_2.png)
 
-Ataque à distância (ranged):
+Ranged attack:
 
 ![Player Ranged Attack 1](images/Range1.png)  
 ![Player Ranged Attack 2](images/Range2.png)
 
-Animator do jogador:
+Player Animator:
 
 ![Player Animator](images/combat_player_mechanics.png)
 
-*Estas animações e mecânicas demonstram a variedade de ataques corpo a corpo e à distância, enriquecendo a dinâmica do combate.*
+*These animations and mechanics showcase the range of both melee and ranged combat, adding depth to the gameplay.*
 
 ### Power-Ups System
 
-Sistema de power-ups que melhoram atributos do jogador durante o jogo:
+Power-ups collected during gameplay:
 
 ![Power-Ups](images/powerUp.png)  
-*Bônus colecionáveis que aumentam características essenciais para a sobrevivência.*
+*Collectible bonuses enhance key player attributes, aiding survival and progression.*
 
-Chance de aparecimento dos bônus nas ondas:
+Spawn chance of power-ups throughout waves:
 
 ![Power-Up Spawn Chance](images/powerUp2.png)  
-*Probabilidade e mecânica de surgimento dos bônus ao longo das ondas.*
+*Visualizing the drop mechanics and probabilities for power-ups during waves.*
 
 ### Waves
 
-Exemplo de ondas de inimigos que aumentam a dificuldade progressivamente:
+Examples of enemy waves with progressive difficulty:
 
 ![Wave Example 1](images/waveExample1.png)  
 ![Wave Example 2](images/waveExample2.png)  
 ![Wave Example 3](images/waveExample3.png)
 
-*As ondas são projetadas para oferecer um desafio crescente, preparando o jogador para as batalhas contra chefões.*
+*Waves are designed to escalate in difficulty, preparing players for the next boss confrontation.*
 
 ---
-
-
 
 ## Controls
 
 - Move: WASD or Arrow keys  
-- Attack (Melee): Spacebar 
-- Attack (Range): Left Mouse
+- Attack (Melee): Spacebar  
+- Attack (Ranged): Left Mouse Button
 
 ## Future Improvements
 
 - Add more enemy and boss types with diverse behaviors.  
 - Implement multiplayer mode for cooperative survival.  
 - Enhance UI with dynamic feedback and leaderboards.  
-- Add background music and enrich sound effects to increase immersion.
+- Add background music and improve sound effects for greater immersion.
 
 ---
 
 ## Author
 
 David Furtado
+
 ---
 
 ## License
 
 This project is licensed under the MIT License.
-
-
-
